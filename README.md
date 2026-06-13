@@ -78,12 +78,12 @@ XGBoost was the best model across all horizons (Kaggle MAE ≈ 1.77 °C), confir
 models able to capture non-linear interactions are best suited to this problem.
 
 ## Files
-- `temperature_forecasting.ipynb` — main notebook (EDA, preprocessing, models)
-- `neural_network.ipynb` — neural network (appendix)
-- `report.pdf` — full project report
+- `temperature_forecasting.ipynb` - main notebook (EDA, preprocessing, models)
+- `neural_network.ipynb` - neural network (appendix)
+- `report.pdf` - full project report
 
 
-## Tools and Libraries
+## Tools
 
 * Python
 
