@@ -1,25 +1,8 @@
-# Bern Temperature Forecasting with Machine Learning
+# Temperature Forecasting in Bern 
 
-## Machine Learning Course Project
+## Machine Learning course project — GSEM, University of Geneva (Prof. Sebastian Engelke, Fall 2025)
 
 This repository contains the code for a graduate-level Machine Learning project focused on predicting the temperature in Bern, Switzerland, using meteorological observations from multiple weather stations.
-
-The project was developed as part of the Machine Learning course at the University of Geneva.
-
-## Course Information
-
-* Course: Machine Learning
-* Institution: University of Geneva
-* Semester: Fall Semester 2025
-* Professor: Prof. Sebastian Engelke
-
-## Team Members
-
-This project was completed as a team project by:
-
-* Zahra Ghafghazi
-* Drenusha Fazlija
-* Aya Markous
 
 ## Project Objective
 
@@ -69,18 +52,6 @@ The project workflow includes:
 10. Model comparison
 11. Final model selection
 
-## Feature Engineering
-
-Several feature engineering techniques were applied to improve model performance:
-
-* Median imputation for missing values
-* Standardization of predictors
-* Cyclical encoding of the hour variable using sine and cosine transformations
-* One-hot encoding of season
-* Polynomial features for selected temperature variables
-* Interaction terms between Bern temperature and neighboring station temperatures
-* Additional spatial, temporal, and meteorological features
-
 ## Models Used
 
 The following models were implemented and compared:
@@ -103,27 +74,19 @@ The models were evaluated separately for the 12-hour, 24-hour, and 48-hour forec
 
 ## Main Results
 
-XGBoost achieved the best overall performance across all three forecasting horizons.
-The results show that boosting-based models are well suited to capturing the nonlinear relationships and interactions present in meteorological data.
+XGBoost was the best model across all horizons (Kaggle MAE ≈ 1.77 °C), confirming that
+models able to capture non-linear interactions are best suited to this problem.
 
-## Repository Structure
+## Files
+- `temperature_forecasting.ipynb` — main notebook (EDA, preprocessing, models)
+- `neural_network.ipynb` — neural network (appendix)
+- `report.pdf` — full project report
 
-```text
-.
-├── README.md
-├── notebooks/
-│   ├── ML_ZAD_Project_2025.ipynb
-│   └── DNN_Appendix_ZAD_Project_2025.ipynb
-└── data/
-    └── README.md
-```
 
 ## Tools and Libraries
 
 * Python
 
-## Notes
-
-The raw dataset and competition-specific documents are not included in this repository due to course and data-access restrictions.
-
-This repository is intended to document the modeling workflow, feature engineering process, model comparison, and final forecasting approach used in the project.
+## Authors
+Group project (3 members): Zahra Ghafghazi, Aya Markous, Drenusha Fazlija.
+Work was divided by model family and reviewed jointly by the team.
