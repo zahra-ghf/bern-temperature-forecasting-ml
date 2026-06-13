@@ -1,6 +1,6 @@
 # Temperature Forecasting in Bern 
 
-## Machine Learning course project — GSEM, University of Geneva (Prof. Sebastian Engelke, Fall 2025)
+## Machine Learning course project - GSEM, University of Geneva (Prof. Sebastian Engelke, Fall 2025)
 
 This repository contains the code for a graduate-level Machine Learning project focused on predicting the temperature in Bern, Switzerland, using meteorological observations from multiple weather stations.
 
