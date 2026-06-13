@@ -121,15 +121,6 @@ The results show that boosting-based models are well suited to capturing the non
 ## Tools and Libraries
 
 * Python
-* Jupyter Notebook
-* pandas
-* NumPy
-* scikit-learn
-* XGBoost
-* TensorFlow / Keras
-* Matplotlib
-* Seaborn
-* GeoPandas
 
 ## Notes
 
